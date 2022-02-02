@@ -1,0 +1,27 @@
+{
+  "name": "vscode-python-class",
+  "displayName": "PythonClass",
+  "publisher": "alissahuskey",
+  "description": "Python class extensions.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alissa-huskey/vscode-python-class.git"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-python.python",
+    "ms-vsliveshare.vsliveshare",
+    "ms-vsliveshare.vsliveshare-audio",
+
+    "CodeStream.codestream",
+    "eamodio.gitlens",
+    "janisdd.vscode-edit-csv",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
