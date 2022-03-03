@@ -1,13 +1,13 @@
 VS Code for Python Class
 ========================
 
-This is a VS Code extension pack for [python-class][python-class].
+This is a VS Code extension for students of [Python Class][python-class].
 
 Features
 --------
 
-* **Setup Poetry** command: sets the `python.venvPath` to the Poetry `virtualenvs.path` config.
-* **Extensions**: 
+* **Python Class: Setup Poetry** command -- sets the `python.venvPath` to the Poetry `virtualenvs.path` config value.
+* **Extension Pack** -- includes the following extensions:
     - [Python][ext-python]
     - [Live Share][ext-liveshare]
     - [Live Share Audio][ext-liveshare-audio]
@@ -27,7 +27,7 @@ code --install-extension alissahuskey.vscode-python-class
 ```
 
 
-[python-class]: https://github.com/alissa-huskey/python-class
+[python-class]: https://alissa-huskey.github.io/python-class/intro.html
 [download]: https://marketplace.visualstudio.com/items?itemName=alissahuskey.vscode-python-class
 
 [ext-python]: https://marketplace.visualstudio.com/items?itemName=ms-python.python

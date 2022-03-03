@@ -3,7 +3,7 @@
   "displayName": "PythonClass",
   "publisher": "alissahuskey",
   "description": "Python class extensions.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/alissa-huskey/vscode-python-class.git"
