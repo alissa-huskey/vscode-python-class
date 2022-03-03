@@ -3,11 +3,23 @@
   "displayName": "PythonClass",
   "publisher": "alissahuskey",
   "description": "Python class extensions.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/alissa-huskey/vscode-python-class.git"
   },
+	"main": "./src/extension.js",
+	"activationEvents": [
+		"onCommand:pythonclass.setupPoetry"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "pythonclass.setupPoetry",
+				"title": "Python Class: Setup Poetry"
+			}
+		]
+	},
   "engines": {
     "vscode": "^1.63.0"
   },
@@ -18,7 +30,6 @@
     "ms-python.python",
     "ms-vsliveshare.vsliveshare",
     "ms-vsliveshare.vsliveshare-audio",
-
     "CodeStream.codestream",
     "eamodio.gitlens",
     "janisdd.vscode-edit-csv",
